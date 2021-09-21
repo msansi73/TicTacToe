@@ -1,0 +1,15 @@
+﻿@model IEnumerable<TicTacToeUI.Models.ApplicationUserModel>
+@{
+    ViewData["Title"] = "Leaderboard";
+}
+
+<h1>Global leaderboard</h1>
+
+<ol id="leaderboard">
+    @foreach (var user in Model)
+    {
+        <li>
+            <p><strong>@user.Name</strong> Vittorie: @user.WonMatches</p>
+        </li>
+    }
+</ol>

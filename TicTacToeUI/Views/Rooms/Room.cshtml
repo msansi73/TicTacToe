@@ -1,0 +1,41 @@
+﻿@model TicTacToeUI.Models.RoomModel
+@{
+    ViewData["Title"] = $"Room {Model.Id}";
+}
+
+<h1>Benvenuto nella stanza @Model.Id</h1>
+
+<p>Giocatore 1: <strong id="player-name-1">@(Model.PlayerA != null ? Model.PlayerA : "Waiting for player...")</strong></p>
+<p>Giocatore 2: <strong id="player-name-2">@(Model.PlayerB != null ? Model.PlayerB : "Waiting for player...")</strong></p>
+
+
+<table class="align-content-center">
+    <tbody>
+        @for (int y = 0; y < 3; y++)
+        {
+            <tr>
+                @for (int x = 0; x < 3; x++)
+                {
+                    <td> <button onclick="move(@x, @y)" id="move-button-@x-@y" class="move-button tic-tac-toe-button w-100 btn btn-primary">@(Model.Board[x, y] == Match.Piece.None ? ' ' : Model.Board[x, y])</button></td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div id="alert-container"></div>
+
+@if (User != null)
+{
+    <script>
+        var username = "@User.Identity.Name";
+        var playerNumber = @(Model.PlayerA == User.Identity.Name ? 1 : 2);
+    </script>
+}
+
+<script>
+    var roomId = @Model.Id;
+    var turnPiece = @((int)Model.TurnPiece);
+</script>
+<script src="~/js/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/js/room.js"></script>

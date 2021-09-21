@@ -1,0 +1,19 @@
+﻿@model IEnumerable<TicTacToeUI.Models.RoomModel>
+@{
+    ViewData["Title"] = "Tic Tac Toe Lobby";
+}
+
+<h1>Lobby</h1>
+
+<a asp-action="Create">Crea una nuova stanza</a>
+
+<table class="table">
+    @foreach (var room in Model)
+    {
+        <tr>
+            <td><a asp-action="Room" asp-route-id="@room.Id">Accedi</a></td>
+            <td>Stanza numero <strong>@room.Id</strong></td>
+            <td>Posti rimanenti: @(2 - room.JoinedPlayers)/2</td>
+        </tr>
+    }
+</table>

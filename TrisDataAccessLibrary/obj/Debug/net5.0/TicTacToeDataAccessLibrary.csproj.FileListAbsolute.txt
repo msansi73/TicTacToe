@@ -1,0 +1,12 @@
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\obj\Debug\net5.0\TicTacToeDataAccessLibrary.csproj.AssemblyReference.cache
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\obj\Debug\net5.0\TicTacToeDataAccessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\obj\Debug\net5.0\TicTacToeDataAccessLibrary.AssemblyInfoInputs.cache
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\obj\Debug\net5.0\TicTacToeDataAccessLibrary.AssemblyInfo.cs
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\obj\Debug\net5.0\TicTacToeDataAccessLibrary.csproj.CoreCompileInputs.cache
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\bin\Debug\net5.0\TicTacToeDataAccessLibrary.deps.json
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\bin\Debug\net5.0\TicTacToeDataAccessLibrary.dll
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\bin\Debug\net5.0\ref\TicTacToeDataAccessLibrary.dll
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\bin\Debug\net5.0\TicTacToeDataAccessLibrary.pdb
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\obj\Debug\net5.0\TicTacToeDataAccessLibrary.dll
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\obj\Debug\net5.0\ref\TicTacToeDataAccessLibrary.dll
+C:\Users\giorg\source\repos\TrisTest2App\TrisDataAccessLibrary\obj\Debug\net5.0\TicTacToeDataAccessLibrary.pdb
